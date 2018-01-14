@@ -1,0 +1,134 @@
+@media only screen and (max-width: 920px) {
+
+    .site-header a  {
+        margin-left: 1%;
+    }
+
+    .site-header img {
+        width: 80%;
+    }
+
+    .top-menu ul {
+        margin-left: -20px;
+    }
+
+    .top-menu ul li a {
+        font-size: 14px;
+        margin-left: 5px;
+    }
+
+    .top-phone {
+    font-size: 14px;
+    margin-right: 1%;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .site-header {
+        height: 50px;
+    }
+    
+    .wrapper-site {
+        padding-top: 50px;
+    }
+
+    .site-header a  {
+        margin-left: 2%;
+    }
+
+    .top-menu {
+        display: none;
+    }
+
+    .btn-menu {
+        display: block;
+        top: -5px;
+    }
+
+    .top-phone {
+        font-size: 16.5px;
+        flex: 0 1 220px;
+    }
+
+    .main-title {
+        font-size: 24px;
+    }
+
+    .section-title {
+        font-size: 18px;
+    }
+
+    .r-tabs-anchor {
+        display: block;
+    }
+
+    .history__item p {
+    padding: 32px 0px 30px 0px;
+}
+    .routes__item {
+        -webkit-flex-flow: column nowrap;
+        -ms-flex-flow: column nowrap;
+        flex-flow: column nowrap;
+        height: auto;
+        padding: 36px 18px 18px 18px;
+    }
+
+    .routes__desc {
+        height: auto;
+        padding: 0;
+        width: 100%;
+        overflow: hidden;
+            
+    }
+
+    .routes__desc h3 {
+        margin: 0 auto;
+        margin-top: 30px;
+       letter-spacing: -0.5px;
+        
+    }
+    .routes__desc p {
+        padding-top: 0px;
+        padding-bottom: 0px;
+       
+        margin-top: 8px;
+        margin-bottom: 6px;
+    }
+
+    .routes__item img {
+        width: 250px;
+        height: auto;
+        margin: 0 auto;
+    }
+    .contacts__box {
+        flex-flow: column nowrap;
+    }
+    .contacts__map {
+        flex: 0 1 98%;
+        width: 100%;
+    }
+
+    .contacts__form {
+        margin-top: 25px;
+        flex: 0 1 98%;
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .main-title {
+        font-size: 18px;
+        line-height: 49px;
+        text-align: center;
+    }
+    .top-phone {
+        flex: 0 1 265px;
+        font-size: 16px;
+    }
+    .site-header img {
+        width: 75%;
+    }
+    #owl-demo .item img {
+        height: 160px;  
+    }
+}
