@@ -147,8 +147,13 @@ a:active, a:focus, a:hover {
 }
 
 .top-phone {
-  font-size: 16.5px;
   margin-right: 2%;
+}
+.top-phone a{
+  font-size: 16.5px;
+  color: #333;
+  margin: 0;
+  padding: 0;
 }
 
 .hidden-menu {
@@ -199,6 +204,8 @@ a:active, a:focus, a:hover {
   -webkit-transition: all 0.35s ease 0s;
   transition: all 0.35s ease 0s;
 }
+
+
 .btn-menu:hover {
   color: #2A4C3B;
 }
