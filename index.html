@@ -1,17 +1,235 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="rus">
 <head>
 	<meta charset="UTF-8">
-	<title>Document</title>
+	<title>html5</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
+<link rel="stylesheet" href="css/ripple.css">
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/animate.css">
+<link rel="stylesheet" href="css/media.css">
 <body>
-<a href="/site1/index.html">site1</a>
-<a href="/site2/index.html">Природа севера</a>
-<a href="/site3/index.html">site3</a>
-<a href="/test-Pixel-Plus-1/index.html">Тест -1  от интернет-агенства  Pixel-Plus</a>
-<a href="/test-Pixel-Plus-2/index.html">Тест -2  от интернет-агенства  Pixel-Plus</a>
-<a href="/test-Pixel-Plus-3/index.html">Тест -3  от интернет-агенства  Pixel-Plus</a>	
+<!-- START HOME -->
+
+	<header class="header-fixed">
+		<div class="header-fixed__wrapper">
+			<div class="site__btn site__btn-logo"> 
+				<a href="#home"> Изложение   HTML - верстальщика &nbsp</a>
+			</div>
+			<a class="header-fixed__trigger" href="#0">
+				<span class="header-fixed__trigger-icon"></span>
+			</a>
+			<nav class="header-fixed__nav menu-is-close">
+				<ul>
+					<li><a href="#home"> Главная </a></li>
+					<li><a href="#skills"> Навыки </a></li>
+					<li><a href="#portfolio"> Портфолио </a></li>
+					<li><a href="#contacts"> Контакты </a></li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+
+	<img src="img/butterfly/butterfly.png" alt="" class="home__butterfly">
+
+	<div class="arrows">
+    	<div>
+    		<a href="#top" onclick="$('body, html').animate({scrollTop: 0}, '400'); return false;" title="Вверх страницы">↑</a>
+    	</div>
+    	<br>
+    	<div>
+    	<a href="#bottom" onclick="$('body, html').animate({scrollTop: $(document).height()-$(window).height()}, '400'); return false;" title="Вниз страницы">↓</a>
+    	</div>
+    </div>
+
+	<section id="home" class="page-home home_parallax ripple" >
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 col-xl-6">
+					<div class="site__btn site__btn-portfolio"> 
+						<a href="#portfolio"> Aссортимент </a>
+					</div>
+				</div>
+				
+				<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 col-xl-6">
+					<div class="site__btn site__btn-skills"> 
+						<a href="#skills"> Сноровка </a>
+					</div>
+				</div>
+			</div>
+			
+			<div class="site__btn-contacts-wrapper">
+				<div class="site__btn-contacts">
+					<div class="site__btn">
+						<a href="#contacts"> Соприкосновение </a>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<canvas width="100%" height="700" style="position: absolute; left: 0px; top: 0px; right: 0px; bottom: 0px; z-index: -1;"></canvas>
+
+	</section>
+
+    
+	
+	<section id="skills" class="page-skills color-background__green color-text_light">
+
+		<div class="page-skills__overlay"></div>
+
+		<div class="skills__hero-text-wrapper">
+			<div class="skills__hero-text">
+						<a href="#contacts"> Я не утверждаю, что у меня есть ответ на любой вопрос, но обещаю,
+							<br>
+							что у меня есть вопрос на любой ответ. <br>(Дейвид Лэндер)
+						</a>
+			</div>
+		</div>
+
+		<div class="section__title-wrapper">
+			<div class="section__title-text">
+				<p>Навыки</p> <span class="dots dots_light"></span>
+			</div>
+		</div>
+
+		<div class="skills__text-wrapper">
+			<div class="container">
+				<div class="row">
+					<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 col-xl-6">
+						<div class="skills__text-item">
+							<p>Gulp</p>
+							<p>Bootstrap</p>
+							<p>JavaScript</p>
+							<p>LESS</p>
+							<p>SASS&nbsp;&nbsp;&nbsp;SCSS</p>
+						</div>
+					</div>
+					<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 col-xl-6">
+						<div class="skills__text-item">
+							<p>HTML5</p>
+							<p>CSS3</p>
+							<p>Git</p>
+							<p>БЭМ</p>
+							<p>PHOTOSHOP</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+
+	<section id="portfolio"  class="page-portfolio color-background__green">
+		<div class="container">
+			<div class="section__title-wrapper color-text_light">
+				<div class="section__title-text">
+					<p>Портфолио</p> <span class="dots dots_light"></span>
+				</div>
+			</div>
+			<div class="portfolio__item-wrapper color-background__green">
+				<div class="row">
+					<div class="col-xs-12 col-sm-6 col-lg-4">
+						<div class="portfolio__item">
+							<p>Технологии</p>
+							<ul>
+								<li> HTML5 </li>
+								<li> CSS3 </li>
+								<li> Верстка : Адаптивная</li>
+								<li> Flexbox + media</li>
+								<li> GULP &nbsp;  LESS &nbsp;  БЭМ </li>
+							</ul>
+							<div class="portfolio__item-footer">
+								<a href="https://www.youtube.com/watch?v=rT4q2uEo1NE&t=6s"> Видеоурок :? </a>
+							</div>
+						</div>
+					</div>
+				
+					<div class="col-xs-12 col-sm-6 col-lg-4">
+						<div class="portfolio__item">
+							<p>Технологии</p>
+							<ul>
+								<li> HTML5 </li>
+								<li> CSS3 </li>
+								<li> Верстка : Адаптивная</li>
+								<li> Flexbox + media</li>
+								<li> GULP &nbsp;  LESS &nbsp;  БЭМ </li>
+							</ul>
+							<div class="portfolio__item-footer">
+								<a href="https://www.youtube.com/watch?v=rT4q2uEo1NE&t=6s"> Верстка бесплатного макета </a>
+							</div>
+						</div>
+					</div>
+					<div class="col-xs-12 col-sm-6 col-lg-4">
+						<div class="portfolio__item">
+							<p><a href="/site2/index.html">Природа севера</a></p><div></div>
+							<ul>
+								<li> HTML5</li>
+								<li> CSS3</li>
+								<li> Верстка :Адаптивная</li>
+								<li> Flexbox + media</li>
+							</ul>
+							<div class="portfolio__item-footer">
+								<a href="https://www.youtube.com/watch?v=rT4q2uEo1NE&t=6s">Видеоурок :Верстка Landing Page на Flexbox</a>
+							</div>
+						</div>
+					</div>
+				
+					<div class="col-xs-12 col-sm-6 col-lg-4">
+						<div class="portfolio__item">
+							<p><a href="/test-Pixel-Plus-1/index.html">Тест -1 </a></p>
+							<ul>
+								<li>HTML5</li>
+								<li>CSS3</li>
+								<li>BOOTSTRAP4</li>
+								<li>верстка: FLOAT</li>
+							</ul>
+							<div class="portfolio__item-footer">
+								<a href="https://pixelplus.ru/studio/stat/testovye-zadaniya-na-vakansiyu-web-razrabotchik-html-verstalshchik-kompaniya-piksel-plyus/">Тест1 от агенства <br> Pixel-Plus</a>
+							</div>
+						</div>
+					</div>
+				
+					<div class="col-xs-12 col-sm-6 col-lg-4">
+						<div class="portfolio__item">
+							<div class="portfolio__item-site">
+								<p><a href="/test-Pixel-Plus-2/index.html">Тест -2 </a></p>
+								<ul>
+									<li>HTML5</li>
+									<li>CSS3</li>
+									<li>BOOTSTRAP4</li>
+									<li>верстка: FLOAT</li>
+								</ul>
+							</div>
+
+							<div class="portfolio__item-footer">
+								<a href="https://pixelplus.ru/studio/stat/testovye-zadaniya-na-vakansiyu-web-razrabotchik-html-verstalshchik-kompaniya-piksel-plyus/">Источник : Тест2 от агенства Pixel-Plus</a>
+							</div>
+							
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section id="contacts" class="page-contacts">
+		<div class="page-contacts1">
+			<div class="section__title-wrapper color-text_light">
+				<div class="section__title-text">
+					<p>Контакты</p> <span class="dots dots_light"></span>
+				</div>
+			</div>
+			
+			<div class="container contacts__butterfly">
+				<img src="img/butterfly/butterfly_640.png" alt="" >
+			</div>	
+		</div>
+	</section>
+	<script src="js/jquery-3.js"></script>
+	<script src="js/bootstrap.js"></script>
+	<script src="js/jquery.ripples-min.js"></script>
+	<script src="js/common.js"></script>
 </body>
 </html>
-
-
