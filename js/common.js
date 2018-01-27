@@ -4,7 +4,7 @@ $(function() {
 if (typeof $.fn.ripples == 'function') {
         try {
           $('.ripple').ripples({
-            resolution: 500,
+            resolution: 300,
             perturbance: 0.01
           });
         } catch (e) {
