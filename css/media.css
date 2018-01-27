@@ -23,12 +23,22 @@
 @media only screen and (max-width: 768px) {
 
     .site__btn-portfolio,.site__btn-skills {
-        margin-top: 60%;
+        margin-top: 55%;
+        width: 90%;
     }
 
     .site__btn  a {
         font-size: 14px;
     }
+
+    .skills__text-item {
+        width: 125px;
+        font-size: 14px;
+    }
+     .skills-text-item p {
+       font-size: 14px;
+    }
+        
  
 }
 
@@ -36,23 +46,13 @@
 @media only screen and (max-width: 480px) {
 
     .site__btn-portfolio,.site__btn-skills {
-        width: 88%;
         margin-top: 75%;
+        width: 70%;
     }
       
     .section__title-text {
        letter-spacing: 1px;
     }
-
-    .skills__text-item {
-        width: 125px;
-        font-size: 14px;
-    }
-
-    .skills-text-item p {
-       font-size: 14px;
-    }
-         
 }
 
 
