@@ -89,7 +89,7 @@ a,a:hover {
 }
 
 .site__btn a:hover {
-   background: url(../img/octopus/star.png) 5px 0px;
+   background: url(../img/octopus/star.png) 5px 5px;
    background-repeat: no-repeat;
    background-size: 35px;
    color:#fff;
@@ -217,7 +217,7 @@ a,a:hover {
 		}
 
 		.site__btn-logo a:hover {
-			background-position:30% 0px;
+			background-position:30% 5px;
 		}
 		
 
