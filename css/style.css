@@ -76,9 +76,6 @@ a,a:hover {
 
 .site__btn {
 	display: inline-block;
-	/*float: left;*/
-/*	margin: 0 auto;	*/
-	/*background-color:  #424465;*/
 	border-bottom: 2px solid #fff;
     border-radius: 0px 0px 20px 20px;
     text-align: center;
@@ -91,7 +88,7 @@ a,a:hover {
    
 }
 
-.site__btn:hover {
+.site__btn a:hover {
    background: url(../img/octopus/octopus-contacts.png) 5px 0px;
    background-repeat: no-repeat;
    background-size: 25px;
@@ -207,10 +204,9 @@ a,a:hover {
 		.site__btn-logo {
 			position: absolute;
 			width: 100%;
-			background-color:  #424465;
+			background-color:  #5b5d83;
 			line-height: 41px;
 			border: 1px solid #fff;
-			/*border-radius: 20px 20px 0px 0px;*/
 			text-transform: lowercase;
 		}
 		.site__btn-logo a {
@@ -281,8 +277,8 @@ a,a:hover {
 	background-position: center center;
 	transition: all .3s ease 0s;
 	orphans: .5;
-	/*transform: rotate(45deg);	*/
 }
+
 .home__octopus:hover {
 	background-image: url(../img/octopus/octopus-contacts.png);
 	width: 128px;
@@ -336,7 +332,6 @@ a,a:hover {
 
 .site__btn-contacts {
 	margin: 0 auto;
-	/*width: 190px;*/
 }
 
 
