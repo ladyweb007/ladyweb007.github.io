@@ -16,7 +16,9 @@ a,a:hover {
 	color: #FFF;
 }	
 
-
+.text-center {
+	text-align: center;
+}
 /*** COLOR ***/
 
 .color-text_dark {
@@ -39,16 +41,24 @@ a,a:hover {
 .arrows {
 	z-index: 3;
     position: fixed;
-    right: 0;
-    bottom: 0;
-    font-size: 2.5rem;
-    font-weight: 400;
+    bottom: 44%;
+}
+
+.arrows_up {
+    left: 2%; 
+}
+
+.arrows_down {
+	right: 2%;
+ 
 }
 
 .arrows a {
 	display: block;
 	padding: 5px;
 	color: white;
+	font-size: 2.5rem;
+    font-weight: 400;
 	background-color: #424465;
     border: 1px solid white;
     border-radius: 5px;
@@ -65,14 +75,14 @@ a,a:hover {
 /*** .site__btn ***/
 
 .site__btn {
-	margin: 0 auto;	
-	/*background-color: #363c86;*/
+	display: inline-block;
+/*	margin: 0 auto;	*/
 	background-color:  #424465;
 	border: 1px solid #fff;
     border-radius: 0px 0px 20px 20px;
     text-align: center;
 	transition: all .3s ease 0s;
-	opacity: 0.85;
+	opacity: 0.9;
 }
 
 .site__btn:hover {
@@ -85,8 +95,7 @@ a,a:hover {
 
 .site__btn  a {
 	display: block;
-	/*height: inherit;*/
-	padding: 2px 10px;
+	padding: 2px 5px;
   	color: #e6cfe3;
  	font-size: 16px;
 	font-weight: 400;
@@ -107,7 +116,7 @@ a,a:hover {
 
 	.header-fixed__wrapper {
 		position: relative;
-		top: 5px;
+		top: 0px;
 	    left: 2%;	
 		width: 96%;
 		height: 100%;
@@ -259,12 +268,13 @@ a,a:hover {
 
 .home_parallax:before {
 	position: absolute;
+	content: "";
 	left: 0;
 	top: 0;
 	width: 100%;
 	height: 100%;
 	background: rgba(0, 0, 0, 0.4) none repeat scroll 0 0;
-	content: "";
+
 }
 
 .page-home {
@@ -281,9 +291,9 @@ a,a:hover {
 }
 	
 .site__btn-skills, .site__btn-portfolio {
-	margin: 0 auto;
-	margin-top: 60%;
-	width: 190px;
+	/*margin: 0 auto;*/
+	margin-top: 50%;
+	width: 130px;
 }
 
 .site__btn-contacts-wrapper {
@@ -397,19 +407,6 @@ a,a:hover {
     opacity: .85;
 }
 
-.page-skills:after {
-	position: absolute;
-	content: "";
-	bottom: 0;
-    left: 0;
-    width: 100%;
-    height: 50px;
-    overflow: hidden;
-    position: absolute;
-    background: rgb(62, 125, 171) url(../img/grid/vertical.png);
-    opacity: .85;
-}
-
 .skills__hero-text-wrapper  {
 	position: absolute;
 	top: -50px;
@@ -483,6 +480,31 @@ a,a:hover {
 	background-position: center center;
 }
 
+.page-portfolio:before {
+	position: absolute;
+	content: "";
+	top: 0;
+    left: 0;
+    width: 100%;
+    height: 105px;
+    overflow: hidden;
+    background: rgb(62, 125, 171) url(../img/grid/vertical.png);
+    opacity: .85;
+}
+
+.page-portfolio:after {
+	position: absolute;
+	content: "";
+	bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 50px;
+    overflow: hidden;
+    position: absolute;
+    background: rgb(62, 125, 171) url(../img/grid/vertical.png);
+    opacity: .85;
+}
+
 .portfolio__item-wrapper {
 	width: 100%;
 	padding-top: 150px;
@@ -490,22 +512,21 @@ a,a:hover {
 
 #portfolio .container {
 	position: relative;
-	background-color: #678487;
+	background-color: rgba(0, 0, 0, 0.4);
 	opacity: 0.9;
 	width: 100%;
 } 
 
-#portfolio .container:before {
+/*#portfolio .container:after {
 	content:"";
 	overflow:hidden;
 	position:absolute;
-/*	background:rgb(6, 98, 80) url(../vertical.png);*/
-	background:rgb(6, 82, 94) url(../img/grid/vertical.png);
+	background:rgba(62, 125, 171,0.6) url(../img/grid/vertical.png);
 	width:100%;
 	height:100%;
 	bottom:0;
 	left:0;
-}
+}*/
 
 
 .portfolio__item-site:hover {
