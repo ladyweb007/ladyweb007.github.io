@@ -12,22 +12,46 @@ if (typeof $.fn.ripples == 'function') {
         }
       }
 
-
-
-$(document).on("mouseover", ".site__btn-contacts", function(event){
-   $(".home__butterfly").css("width",'100px');
-   $(".home__butterfly").css("bottom",'78%');
-   $(".home__butterfly").css("left",'75%');
-   $(".home__butterfly").css("transform",'rotate(-45deg)');
+ $(document).on("mouseover", ".site__btn-contacts", function(event){
+  $(".home__octopus").css("background-image",'url(img/octopus/octopus-contacts.png)');
+  $(".home__octopus").css("width",'128px');
+  $(".home__octopus").css("height",'128px');
 });
 
-$(document).on("mouseout", ".site__btn-contacts", function(event){
-  $(".home__butterfly").css("width",'70px');
-  $(".home__butterfly").css("bottom",'8%');
-  $(".home__butterfly").css("left",'14%');
-  $(".home__butterfly").css("transform",'rotate(45deg)');
+ $(document).on("mouseover", ".site__btn-skills", function(event){
+  $(".home__octopus").css("width",'128px');
+  $(".home__octopus").css("height",'128px');
+  $(".home__octopus").css("background-image",'url(img/octopus/octopus-skills.png)');
+  
+});
+
+ $(document).on("mouseover", ".site__btn-portfolio", function(event){
+  $(".home__octopus").css("background-image",'url(img/octopus/octopus-portfolio.png)');
+  $(".home__octopus").css("width",'128px');
+  $(".home__octopus").css("height",'128px');
+});
+
+
+ $(document).on("mouseout", ".site__btn-contacts,.site__btn-skills,.site__btn-portfolio", function(event){
+  $(".home__octopus").css("background-image",'url(img/octopus/octopus.png)');
+  $(".home__octopus").css("width",'110px');
+  $(".home__octopus").css("height",'110px');
+});
+
+// $(document).on("", ".site__btn-contacts", function(event){
+//    $(".home__octopus").css("width",'100px');
+//    $(".home__octopus").css("bottom",'78%');
+//    $(".home__octopus").css("left",'75%');
+//    $(".home__octopus").css("transform",'rotate(-45deg)');
+// });
+
+// $(document).on("mouseout", ".site__btn-contacts", function(event){
+//   $(".home__octopus").css("width",'70px');
+//   $(".home__octopus").css("bottom",'8%');
+//   $(".home__octopus").css("left",'14%');
+//   $(".home__octopus").css("transform",'rotate(45deg)');
        
-});
+// });
 
 $(document).on("mouseover", ".skills__text-item", function(event){
   $(".skills__hero-text").css("z-index",'10');
