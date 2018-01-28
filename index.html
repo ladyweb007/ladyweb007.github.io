@@ -34,26 +34,24 @@
 
 	<img src="img/butterfly/butterfly.png" alt="" class="home__butterfly">
 
-	<div class="arrows">
-    	<div>
+	<div class="arrows arrows_up">
     		<a href="#top" onclick="$('body, html').animate({scrollTop: 0}, '400'); return false;" title="Вверх страницы">↑</a>
     	</div>
     	<br>
-    	<div>
+    	<div class="arrows arrows_down">
     	<a href="#bottom" onclick="$('body, html').animate({scrollTop: $(document).height()-$(window).height()}, '400'); return false;" title="Вниз страницы">↓</a>
     	</div>
-    </div>
 
 	<section id="home" class="page-home home_parallax ripple" >
 		<div class="container">
 			<div class="row">
-				<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 col-xl-6">
+				<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 col-xl-6 text-center ">
 					<div class="site__btn site__btn-portfolio"> 
 						<a href="#portfolio"> Aссортимент </a>
 					</div>
 				</div>
 				
-				<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 col-xl-6">
+				<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 col-xl-6 text-center ">
 					<div class="site__btn site__btn-skills"> 
 						<a href="#skills"> Сноровка </a>
 					</div>
@@ -121,14 +119,14 @@
 	</section>
 
 
-	<section id="portfolio"  class="page-portfolio color-background__green">
+	<section id="portfolio"  class="page-portfolio ">
 		<div class="container">
 			<div class="section__title-wrapper color-text_light">
 				<div class="section__title-text">
 					<p>Портфолио</p> <span class="dots dots_light"></span>
 				</div>
 			</div>
-			<div class="portfolio__item-wrapper color-background__green">
+			<div class="portfolio__item-wrapper">
 				<div class="row">
 					<div class="col-xs-12 col-sm-6 col-lg-4">
 						<div class="portfolio__item">
