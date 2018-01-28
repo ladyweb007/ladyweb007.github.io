@@ -76,9 +76,10 @@ a,a:hover {
 
 .site__btn {
 	display: inline-block;
+	/*float: left;*/
 /*	margin: 0 auto;	*/
-	background-color:  #424465;
-	border: 1px solid #fff;
+	/*background-color:  #424465;*/
+	border-bottom: 2px solid #fff;
     border-radius: 0px 0px 20px 20px;
     text-align: center;
 	transition: all .3s ease 0s;
@@ -86,23 +87,34 @@ a,a:hover {
 }
 
 .site__btn:hover {
-   background: #772057;
+   background-color: rgb(66, 68, 101,0.5);
+   
 }
 
-.site__btn a:hover {
+.site__btn:hover {
+   background: url(../img/octopus/octopus-contacts.png) 5px 0px;
+   background-repeat: no-repeat;
+   background-size: 25px;
    color:#fff;
+   padding: 0px 5px 0px 35px;
+   height: 100%;
 }
 
 .site__btn  a {
-	display: block;
-	padding: 2px 5px;
-  	color: #e6cfe3;
- 	font-size: 16px;
+	padding: 0px 20px;
+  	color: #fff;
+ 	font-size: 18px;
 	font-weight: 400;
-	letter-spacing: 1.1px;
-	line-height: 45px;
-	transition: all .3s ease 0s;
-
+	/*letter-spacing: 1px;*/
+	line-height: 40px;
+	text-transform: uppercase;
+}
+.wave {
+	display: block;
+	margin: 0 auto;
+	width: 100px;
+	height: auto;
+	padding: 10px;
 }
 
 /*** .header-fixed ***/
@@ -111,7 +123,7 @@ a,a:hover {
 	z-index: 3;
 	position: fixed;
 	width: 100%;
-	height: 100px;
+	height: 45px;
 }
 
 	.header-fixed__wrapper {
@@ -127,7 +139,7 @@ a,a:hover {
 		.header-fixed__trigger {
 			z-index: 3;
 			position: absolute;
-			top: 8px;
+			top: 4px;
 			right: 20px;
 			width: 38px;
 			height: 35px;
@@ -195,8 +207,18 @@ a,a:hover {
 		.site__btn-logo {
 			position: absolute;
 			width: 100%;
-			border-radius: 20px 20px 0px 0px;
+			background-color:  #424465;
+			line-height: 41px;
+			border: 1px solid #fff;
+			/*border-radius: 20px 20px 0px 0px;*/
+			text-transform: lowercase;
 		}
+		.site__btn-logo a {
+			text-transform: none;
+			padding: 0px;
+		}
+		
+		
 
 		/*** .header-fixed__nav ***/
 		
@@ -244,19 +266,28 @@ a,a:hover {
 		  border-radius: 25px 25px 25px 25px;
 		}
 
-/*** .home__butterfly ***/
+/*** .home__octopus ***/
 
 
-.home__butterfly {
-	z-index:100;
+.home__octopus {
+	z-index:2;
 	position: absolute;
-	bottom: 5%;
-	left: 14%;
-	width: 70px;
-	height: auto;
+	top: 15%;
+	left: 45%;
+	width: 110px;
+	height: 110px;
+	background-image: url(../img/octopus/octopus.png);
+	background-size:cover;
+	background-position: center center;
 	transition: all .3s ease 0s;
-	transform: rotate(45deg);	
+	orphans: .5;
+	/*transform: rotate(45deg);	*/
 }
+.home__octopus:hover {
+	background-image: url(../img/octopus/octopus-contacts.png);
+	width: 128px;
+	height: 128px;
+} 
 
 /*** .page-home ***/
 
@@ -293,7 +324,7 @@ a,a:hover {
 .site__btn-skills, .site__btn-portfolio {
 	/*margin: 0 auto;*/
 	margin-top: 50%;
-	width: 130px;
+	min-width: 185px;
 }
 
 .site__btn-contacts-wrapper {
@@ -305,7 +336,7 @@ a,a:hover {
 
 .site__btn-contacts {
 	margin: 0 auto;
-	width: 190px;
+	/*width: 190px;*/
 }
 
 
@@ -596,11 +627,10 @@ a,a:hover {
 	width: 100%;
 	height: 100%;
 }
-.contacts__butterfly img {
+.contacts__octopus img {
 	position: absolute;
-	bottom:0;
+	bottom:30px;
 	right: 30px;
 	height: auto;
-	max-width: 100%;
-	width: 30%;
+	width: 128px;
 }
