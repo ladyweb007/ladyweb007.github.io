@@ -89,23 +89,24 @@ a,a:hover {
 }
 
 .site__btn a:hover {
-   background: url(../img/octopus/octopus-contacts.png) 5px 0px;
+   background: url(../img/octopus/star.png) 5px 0px;
    background-repeat: no-repeat;
-   background-size: 25px;
+   background-size: 35px;
    color:#fff;
    padding: 0px 5px 0px 35px;
-   height: 100%;
 }
 
 .site__btn  a {
+	display: block;
 	padding: 0px 20px;
   	color: #fff;
  	font-size: 18px;
 	font-weight: 400;
-	/*letter-spacing: 1px;*/
 	line-height: 40px;
 	text-transform: uppercase;
+	height: 100%;
 }
+
 .wave {
 	display: block;
 	margin: 0 auto;
@@ -209,12 +210,17 @@ a,a:hover {
 			border: 1px solid #fff;
 			text-transform: lowercase;
 		}
+
 		.site__btn-logo a {
 			text-transform: none;
 			padding: 0px;
 		}
+
+		.site__btn-logo a:hover {
+			background-position:30% 0px;
+		}
 		
-		
+
 
 		/*** .header-fixed__nav ***/
 		

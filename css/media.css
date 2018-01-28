@@ -30,9 +30,13 @@
         padding: 0px;
     }
     .site__btn a:hover {
-     background-size: 20px;
-     padding-right: 5px;
+        background-size: 30px;
+        padding-right: 5px;
     }
+    .site__btn-logo a:hover {
+        background-position:8% 0px;
+    }
+        
 
 
     .site__btn-skills, .site__btn-portfolio {
@@ -50,7 +54,7 @@
  
     .home__octopus {
         top: 15%;
-        left: 40%;
+        left: 38%;
         width: 90px;
         height: 90px;
     }
@@ -59,7 +63,7 @@
 @media only screen and (max-width: 568px) {
 
     .home__octopus {
-        top: 27%;
+        top: 25%;
     }
 }
 @media only screen and (max-width: 480px) {
