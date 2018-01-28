@@ -12,27 +12,27 @@ if (typeof $.fn.ripples == 'function') {
         }
       }
 
- $(document).on("mouseover", ".site__btn-contacts", function(event){
+ $(document).on("mouseover", ".site__btn-contacts,.wave-contacts", function(event){
   $(".home__octopus").css("background-image",'url(img/octopus/octopus-contacts.png)');
   $(".home__octopus").css("width",'128px');
   $(".home__octopus").css("height",'128px');
 });
 
- $(document).on("mouseover", ".site__btn-skills", function(event){
+ $(document).on("mouseover", ".site__btn-skills,.wave-skills", function(event){
   $(".home__octopus").css("width",'128px');
   $(".home__octopus").css("height",'128px');
   $(".home__octopus").css("background-image",'url(img/octopus/octopus-skills.png)');
   
 });
 
- $(document).on("mouseover", ".site__btn-portfolio", function(event){
+ $(document).on("mouseover", ".site__btn-portfolio,.wave-portfolio", function(event){
   $(".home__octopus").css("background-image",'url(img/octopus/octopus-portfolio.png)');
   $(".home__octopus").css("width",'128px');
   $(".home__octopus").css("height",'128px');
 });
 
 
- $(document).on("mouseout", ".site__btn-contacts,.site__btn-skills,.site__btn-portfolio", function(event){
+ $(document).on("mouseout", ".site__btn-contacts,.site__btn-skills,.site__btn-portfolio,.wave-portfolio,.wave-skills,.wave-contacts", function(event){
   $(".home__octopus").css("background-image",'url(img/octopus/octopus.png)');
   $(".home__octopus").css("width",'110px');
   $(".home__octopus").css("height",'110px');
