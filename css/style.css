@@ -68,7 +68,7 @@ a,a:hover,a:active,a:focus,a:visited {
 }
 
 .arrows a:hover {
-	background-color: rgb(252, 165, 182,1);
+	background-color: rgb(252, 165, 182);
 }
 
 
@@ -146,7 +146,8 @@ a,a:hover,a:active,a:focus,a:visited {
 		 }
 
 		.header-fixed__trigger:hover {
-		   	background-color: rgba(252, 165, 182,1);
+		   	background-color: rgb(252, 165, 182);
+		   	opacity: 1;
 		}
 
 		.header-fixed__trigger .header-fixed__trigger-icon {
@@ -264,7 +265,8 @@ a,a:hover,a:active,a:focus,a:visited {
 		}
 
 		.header-fixed__nav li a:hover {
-		  background-color:  rgba(252, 165, 182,1);
+		  background-color:  rgb(252, 165, 182);
+		  opacity: 1;
 		  color:#fff;
 		  border-radius: 25px 25px 25px 25px;
 		}
@@ -645,7 +647,7 @@ a,a:hover,a:active,a:focus,a:visited {
 	padding-top: 6px;
 	text-align: center;
     transition:  .6s ease-out;
-    background-color: rgba(252, 165, 182,1);
+    background-color: rgb(252, 165, 182);
     box-shadow: 1px 1px 3px #555;
 }
 
@@ -779,7 +781,7 @@ a,a:hover,a:active,a:focus,a:visited {
 	 	
 	}
 	.line__bottom {
-	 	background:rgba(252, 165, 182,1);
+	 	background:rgb(252, 165, 182);
 	}
 
 
