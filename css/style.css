@@ -329,20 +329,16 @@ a,a:hover,a:active,a:focus,a:visited {
 }
 	
 .site__btn-skills, .site__btn-portfolio {
-	/*margin: 0 auto;*/
 	margin-top: 50%;
 	min-width: 185px;
 }
 
-.site__btn-contacts-wrapper {
-	position: absolute;
-    left: 0%;
-    bottom: 5%;
-	width: 100%;
-}
 
 .site__btn-contacts {
+	position: relative;
+	display: block;
 	margin: 0 auto;
+	width: 200px;
 }
 
 
@@ -519,22 +515,21 @@ a,a:hover,a:active,a:focus,a:visited {
 
 .page-portfolio {
 	position: relative;
-	/*background-image: url(../img/portfolio/portfolio-background.jpg);
-	background-size:cover;
-	background-position: center center;*/
+	background-image: url(../img/portfolio/portfolio.jpg);
+	background-position: top center;
 	width: 100%;
 	padding-top: 90px;
 	padding-bottom: 50px;
 }
-/*
+
 .page-portfolio__overlay {
 	position: absolute;	
 	top: 0;	
 	left: 0;	
 	width:100%;
 	height:100%;
-	background-color: rgba(6, 82, 94,0.68);
-}*/
+	background-color: rgba(6, 82, 94,0.4);
+}
 
 .page-portfolio:before {
 	position: absolute;
@@ -710,7 +705,7 @@ a,a:hover,a:active,a:focus,a:visited {
 
 .page-contacts {
 	position: relative;
-	background-image: url(../img/contacts/portfolio-contacts.jpg);
+	background-image: url(../img/contacts/contacts.jpg);
 	background-size:cover;
 	background-position: center center;
 	width: 100%;
@@ -815,8 +810,9 @@ a,a:hover,a:active,a:focus,a:visited {
 
 .contacts__octopus img {
 	position: absolute;
-	bottom:60px;
-	right: 30px;
+	z-index: 6;
+	bottom:10px;
+	right: 10px;
 	height: auto;
-	width:100px;
+	width:70px;
 }
