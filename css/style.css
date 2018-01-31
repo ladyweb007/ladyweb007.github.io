@@ -8,11 +8,12 @@
 body,html {
 	width: 100%;
 	height: 100%;
-	background-color:#06525e;
+	background-color:#1d515a;
 }
 
 
 a,a:hover,a:active,a:focus,a:visited {
+	display: block;
 	color:#fff;
 	text-decoration: none;
 	outline: none;
@@ -68,7 +69,8 @@ a,a:hover,a:active,a:focus,a:visited {
 }
 
 .arrows a:hover {
-	background-color: rgb(252, 165, 182);
+	background-color: #fca5b6;
+	opacity: 1;
 }
 
 
@@ -146,7 +148,7 @@ a,a:hover,a:active,a:focus,a:visited {
 		 }
 
 		.header-fixed__trigger:hover {
-		   	background-color: rgb(252, 165, 182);
+		   	background-color:#fca5b6;
 		   	opacity: 1;
 		}
 
@@ -265,7 +267,7 @@ a,a:hover,a:active,a:focus,a:visited {
 		}
 
 		.header-fixed__nav li a:hover {
-		  background-color:  rgb(252, 165, 182);
+		  background-color:  #fca5b6;
 		  opacity: 1;
 		  color:#fff;
 		  border-radius: 25px 25px 25px 25px;
@@ -438,7 +440,7 @@ a,a:hover,a:active,a:focus,a:visited {
     width: 100%;
     height: 105px;
     overflow: hidden;
-    background: rgb(62, 125, 171) url(../img/grid/vertical.png);
+    background: #1d515a url(../img/grid/vertical.png);
     opacity: .85;
 }
 
@@ -517,14 +519,14 @@ a,a:hover,a:active,a:focus,a:visited {
 
 .page-portfolio {
 	position: relative;
-	background-image: url(../img/portfolio/portfolio-background.jpg);
+	/*background-image: url(../img/portfolio/portfolio-background.jpg);
 	background-size:cover;
-	background-position: center center;
+	background-position: center center;*/
 	width: 100%;
 	padding-top: 90px;
 	padding-bottom: 50px;
 }
-
+/*
 .page-portfolio__overlay {
 	position: absolute;	
 	top: 0;	
@@ -532,7 +534,7 @@ a,a:hover,a:active,a:focus,a:visited {
 	width:100%;
 	height:100%;
 	background-color: rgba(6, 82, 94,0.68);
-}
+}*/
 
 .page-portfolio:before {
 	position: absolute;
@@ -542,7 +544,7 @@ a,a:hover,a:active,a:focus,a:visited {
     width: 100%;
     height: 105px;
     overflow: hidden;
-    background: rgb(62, 125, 171) url(../img/grid/vertical.png);
+    background: #1d515a url(../img/grid/vertical.png);
 }
 
 .portfolio-item {
@@ -566,7 +568,6 @@ a,a:hover,a:active,a:focus,a:visited {
 	background-position: center center;
 	background-size: cover;
 	overflow: hidden;
-	cursor: pointer;
 	box-shadow: 1px 4px 3px #555;
 }
 .portfolio-item__image-2{
@@ -578,7 +579,6 @@ a,a:hover,a:active,a:focus,a:visited {
 	background-position: -80px center ;
 	background-size: cover;
 	overflow: hidden;
-	cursor: pointer;
 	box-shadow: 1px 4px 3px #555;
 }
 .portfolio-item__image-3{
@@ -590,7 +590,6 @@ a,a:hover,a:active,a:focus,a:visited {
 	background-position: -70px center;
 	background-size: cover;
 	overflow: hidden;
-	cursor: pointer;
 	box-shadow: 1px 4px 3px #555;
 }
 
@@ -602,7 +601,7 @@ a,a:hover,a:active,a:focus,a:visited {
 	left: 0;
 	right: 0;
 	padding-top: 10px;
-	background-color: rgba(166,142,159,0.9);
+	background-color: #ac97a6;
 	text-align: center;
     transition:  .6s ease-out;
  }
@@ -618,7 +617,7 @@ a,a:hover,a:active,a:focus,a:visited {
 }
 
 
-.portfolio-item__image:hover .portfolio-item__image-hover {
+.portfolio-item__image-hover:hover {
 	display: block;
 	top: 0%;
 }
@@ -626,7 +625,7 @@ a,a:hover,a:active,a:focus,a:visited {
 
 .portfolio-item__description {
 	position: relative;
-	height: 200px;
+	height: 220px;
 	width: 100%;
 }
 
@@ -647,7 +646,7 @@ a,a:hover,a:active,a:focus,a:visited {
 	padding-top: 6px;
 	text-align: center;
     transition:  .6s ease-out;
-    background-color: rgb(252, 165, 182);
+    background-color: #fca5b6;
     box-shadow: 1px 1px 3px #555;
 }
 
@@ -656,15 +655,15 @@ a,a:hover,a:active,a:focus,a:visited {
 	padding-top: 25%;
 }
 
-.portfolio-item__description:hover .portfolio-item__description-hover {
+.portfolio-item__description-hover:hover{
 	display: block;
 	height: 100%;
 	bottom:0;
 }
 
 .portfolio-item__title,.portfolio-item__text {
-	margin-top: 60px;
-	height: 120px;
+	margin-top: 75px;
+	/*height: 190px;*/
 }
 
 .portfolio-item__title p {
@@ -676,8 +675,7 @@ a,a:hover,a:active,a:focus,a:visited {
 
 .portfolio-item__title {
 	text-align: center;
-	border-right:2px solid #ccc;
-	padding: 8px 0px;
+/*	padding: 8px 0px;*/
 }
 
 .portfolio-item__text li, .portfolio-item__title span {
@@ -687,9 +685,15 @@ a,a:hover,a:active,a:focus,a:visited {
 	margin-bottom: 5px;
 }
 
+.portfolio-item__text {
+	padding-left: 40px;
+	border-left:2px solid #ccc;
+}
+	
 .portfolio-item__description ul {
-	padding-top: 12px;
+	/*padding-top: 12px;*/
 	list-style-type:squre;
+
 }
 
 .portfolio__octopus-img {
@@ -721,7 +725,7 @@ a,a:hover,a:active,a:focus,a:visited {
     width: 100%;
     height: 105px;
     overflow: hidden;
-    background: rgb(62, 125, 171) url(../img/grid/vertical.png);
+    background: #1d515a url(../img/grid/vertical.png);
 }
 .page-contacts:after {
 	position: absolute;
@@ -731,7 +735,7 @@ a,a:hover,a:active,a:focus,a:visited {
     width: 100%;
     height: 50px;
     overflow: hidden;
-    background: rgb(62, 125, 171) url(../img/grid/vertical.png);
+    background: #1d515a url(../img/grid/vertical.png);
 }
 
 
@@ -761,31 +765,36 @@ a,a:hover,a:active,a:focus,a:visited {
 		font-size: 18px;
 		font-weight: 400;
 		letter-spacing: 1.2px;
-		
 	}
 
 
 	.line {
-			width: 100%;
-			height: 25px;
-			color: #FFF;
-			font-size: 20px;
-			font-weight: 600;
-			font-size: normal;
-			line-height: 25px;
-			letter-spacing: 1.2px;
-			box-shadow: 1px 3px 3px #555;
+			
+			
 	}
 	.line__top {
-	 	background:rgba(166,142,159,0.9);
-	 	
+		width: 100%;
+		/*height: 20px;*/
+		font-size: 18px;
+		font-weight: 400;
+		line-height: 25px;
+		letter-spacing: 1.2px;
+	 	background:#ac97a6;
 	}
+
 	.line__bottom {
-	 	background:rgb(252, 165, 182);
+		width: 100%;
+		height: 35px;
+		color: #FFF;
+		font-size: 20px;
+		font-weight: 600;
+		line-height: 35px;
+		letter-spacing: 1.2px;
+	 	background:#fca5b6;
+	 	box-shadow: 1px 3px 3px #555;
 	}
 
-
-	.business-card__contacts{
+	.business-card__contacts {
 		margin-top:30px;
 	}
 		.business-card__contacts p {
@@ -796,13 +805,14 @@ a,a:hover,a:active,a:focus,a:visited {
 		}
 		.business-card__contacts-right{
 			padding-left: 16px;
+			border-left:1px solid #ccc;
 		}
-
 		.business-card__contacts-left{
 			text-align: right;
 			padding-right: 16px;
-			border-right:2px solid #ccc;
+			border-right:3px solid #ccc;
 		}
+
 .contacts__octopus img {
 	position: absolute;
 	bottom:60px;
