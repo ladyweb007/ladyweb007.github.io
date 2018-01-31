@@ -12,7 +12,7 @@ if (typeof $.fn.ripples == 'function') {
         }
       }
 
- $(document).on("mouseover", ".site__btn-contacts,.wave-contacts", function(event){
+ $(document).on("mouseover", ".site__btn-contacts,wave-contacts", function(event){
   $(".home__octopus").css("background-image",'url(img/octopus/octopus-contacts.png)');
   $(".home__octopus").css("width",'128px');
   $(".home__octopus").css("height",'128px');
@@ -32,7 +32,7 @@ if (typeof $.fn.ripples == 'function') {
 });
 
 
- $(document).on("mouseout", ".site__btn-contacts,.site__btn-skills,.site__btn-portfolio,.wave-portfolio,.wave-skills,.wave-contacts", function(event){
+ $(document).on("mouseout", ".site__btn-contacts,.site__btn-skills,.site__btn-portfolio,.wave-portfolio,.wave-skills,wave-contacts", function(event){
   $(".home__octopus").css("background-image",'url(img/octopus/octopus.png)');
   $(".home__octopus").css("width",'110px');
   $(".home__octopus").css("height",'110px');
