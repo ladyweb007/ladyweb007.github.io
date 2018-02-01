@@ -547,11 +547,25 @@ a,a:hover,a:active,a:focus,a:visited {
 	margin-right: auto;
 	max-width: 500px;
 	margin-bottom: 100px;
-	width: 80%;
-	border-top: 40px solid #fff;
-	border-left: 4px solid #fff;
-	border-right: 4px solid #fff;
+	padding-top: 8px;
+	padding-bottom: 8px;
+	width: 300px;
+	border-left: 8px solid #fff;
+	border-right: 8px solid #fff;
 	background-color:#fff
+}
+
+.portfolio-item__image-0{
+	position: relative;
+	display: block; 
+	min-height: 270px;
+	background-image: url("../img/portfolio/portfolio-portfolio.jpg");
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+	overflow: hidden;
+	border: 2px solid #ac97a6;
+	box-shadow: 1px 4px 3px #555;
 }
 
 .portfolio-item__image-1{
@@ -563,6 +577,7 @@ a,a:hover,a:active,a:focus,a:visited {
 	background-position: center center;
 	background-size: cover;
 	overflow: hidden;
+	border: 2px solid #ac97a6;
 	box-shadow: 1px 4px 3px #555;
 }
 .portfolio-item__image-2{
@@ -574,6 +589,7 @@ a,a:hover,a:active,a:focus,a:visited {
 	background-position: -80px center ;
 	background-size: cover;
 	overflow: hidden;
+	border: 2px solid #ac97a6;
 	box-shadow: 1px 4px 3px #555;
 }
 .portfolio-item__image-3{
@@ -585,6 +601,7 @@ a,a:hover,a:active,a:focus,a:visited {
 	background-position: -70px center;
 	background-size: cover;
 	overflow: hidden;
+	border: 2px solid #ac97a6;
 	box-shadow: 1px 4px 3px #555;
 }
 
@@ -620,7 +637,9 @@ a,a:hover,a:active,a:focus,a:visited {
 
 .portfolio-item__description {
 	position: relative;
-	height: 220px;
+	padding-top: 15px;
+	padding-bottom: 20px;
+	height: 240px;
 	width: 100%;
 }
 
@@ -686,8 +705,9 @@ a,a:hover,a:active,a:focus,a:visited {
 }
 	
 .portfolio-item__description ul {
-	/*padding-top: 12px;*/
-	list-style-type:squre;
+	
+	list-style-type:decimal
+;
 
 }
 
@@ -800,12 +820,12 @@ a,a:hover,a:active,a:focus,a:visited {
 		}
 		.business-card__contacts-right{
 			padding-left: 16px;
-			border-left:1px solid #ccc;
+		
 		}
 		.business-card__contacts-left{
 			text-align: right;
 			padding-right: 16px;
-			border-right:3px solid #ccc;
+			border-right:2.5px solid #ccc;
 		}
 
 .contacts__octopus img {
