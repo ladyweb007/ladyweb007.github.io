@@ -273,16 +273,16 @@ a,a:hover,a:active,a:focus,a:visited {
 		  border-radius: 25px 25px 25px 25px;
 		}
 
-/*** .home__octopus ***/
+/*** .home__octopus-img ***/
 
 
-.home__octopus {
+.home__octopus-img {
 	z-index:2;
 	position: absolute;
-	top: 15%;
+	bottom: 445px;
 	left: 45%;
-	width: 110px;
-	height: 110px;
+	width: 100px;
+	height: 100px;
 	background-image: url(../img/octopus/octopus.png);
 	background-size:cover;
 	background-position: center center;
@@ -331,6 +331,7 @@ a,a:hover,a:active,a:focus,a:visited {
 .site__btn-skills, .site__btn-portfolio {
 	margin-top: 50%;
 	min-width: 185px;
+	text-align: center;
 }
 
 
@@ -338,7 +339,7 @@ a,a:hover,a:active,a:focus,a:visited {
 	position: relative;
 	display: block;
 	margin: 0 auto;
-	width: 200px;
+	text-align: center;
 }
 
 
