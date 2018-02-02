@@ -44,6 +44,7 @@
     }
 
     .skills__text-item {
+        margin-top: 50px;
         width: 125px;
     }
 
@@ -99,31 +100,39 @@
         margin-bottom:50px;
     }
 
+    .page-contacts {
+        min-height: 550px;
+    }
     .business-card {
        width: 260px;
-       min-height: 330px;
-       margin-top: 150px;
+      /* min-height: 270px;*/
+       margin-top: 75px;
  
     }
+
     .business-card__name {
         padding: 8px;
     }
+
     .business-card__contacts {
-        margin-top: 51px;
-        padding-bottom: 51px;
+        margin-top: 50px;
+     
     }
 
     .business-card__contacts p{
-       line-height: 30px;
-       font-size: 12px;
-     }
+        font-size: 12px;
+    }
 
-     .business-card__contacts-left {
-        margin-left: -40px;
-        
-     }
-     .contacts__octopus img {
-        width:55px;
+    .business-card__contacts-left {
+        padding-right: 10px;
+    }
+
+     .business-card__contacts-right {
+        padding-left: 10px;
+    }
+
+    .contacts__octopus-img {
+        width:60px;
     }
 }
 
@@ -131,7 +140,7 @@
 @media only screen and (max-width: 320px) {
    
     .home__octopus {
-        top: 50%;
+        top: 70%;
         left: 12%;
     }
 
