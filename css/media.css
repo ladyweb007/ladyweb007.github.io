@@ -35,13 +35,24 @@
 
 @media only screen and (max-width: 768px) {
 
-   
-
-
     .site__btn-skills, .site__btn-portfolio {
         min-width: 120px;
     }
 
+    .home__octopus-img {
+        bottom: 180px;
+        left: 38%;
+        width: 90px;
+        height:90px;
+    }
+
+    .wave {
+        width: 60px;
+    }
+
+    .portfolio-item {
+        width: 90%;
+    }
 
     .skills__text-item {
         margin-top: 50px;
@@ -53,20 +64,6 @@
     }
         
  
-    .home__octopus-img {
-        bottom: 180px;
-        left: 38%;
-        width: 90px;
-        height:90px;
-    }
-
-     .wave {
-        width: 60px;
-    }
-
-    .portfolio-item {
-        width: 90%;
-    }
 }
 
 @media only screen and (max-width: 568px) {
@@ -86,7 +83,7 @@
 
 
     .site__btn-portfolio,.site__btn-skills {
-        margin-top: 170px
+        margin-top: 160px
         min-width: 120px;
     }
 
@@ -105,7 +102,6 @@
 
 
 
-
     .page-portfolio {
         padding-top:100px;
     }
@@ -114,11 +110,6 @@
         width: 85%;
         margin-bottom:50px;
     }
-
-    .page-contacts {
-        min-height: 550px;
-    }
-
 
 
     .business-card {
@@ -148,6 +139,10 @@
     }
 
 
+    .page-contacts {
+        min-height: 550px;
+    }
+
     .contacts__octopus-img {
         width:60px;
     }
@@ -157,7 +152,7 @@
 @media only screen and (max-width: 320px) {
 
     .site__btn-skills, .site__btn-portfolio {
-       margin-top: 125px;
+       margin-top: 115px;
     }
    
     .home__octopus-img {
