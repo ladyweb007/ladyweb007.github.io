@@ -69,12 +69,12 @@
 @media only screen and (max-width: 568px) {
 
     .home__octopus-img {
-        bottom: 175;
+: 155px;
         width: 70px;
         height:70px;
     }
     .site__btn-portfolio,.site__btn-skills {
-        margin-top: 165px;
+        margin-top: 125px;
      }
 }
 
@@ -83,7 +83,7 @@
 
 
     .site__btn-portfolio,.site__btn-skills {
-        margin-top: 160px
+        margin-top: 160px;
         min-width: 120px;
     }
 
