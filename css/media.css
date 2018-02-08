@@ -11,10 +11,6 @@
         right: 0;
     }
 
-    .site__btn-portfolio,.site__btn-skills {
-        margin-top: 200px;
-    }
-
     .site__btn  a {
         font-size: 14px;
         padding: 0 5px;
@@ -35,15 +31,14 @@
 
 @media only screen and (max-width: 768px) {
 
-    .site__btn-skills, .site__btn-portfolio {
-        min-width: 120px;
-    }
-
     .home__octopus-img {
-        bottom: 180px;
+        bottom: 100px;
         left: 38%;
         width: 90px;
         height:90px;
+    }
+     .site__btn-contacts {
+        margin-top: 65px;
     }
 
     .wave {
@@ -69,25 +64,18 @@
 @media only screen and (max-width: 568px) {
 
     .home__octopus-img {
-: 155px;
         width: 70px;
         height:70px;
     }
-    .site__btn-portfolio,.site__btn-skills {
-        margin-top: 125px;
-     }
+    .site__btn-contacts {
+        margin-top: 50px;
+    }
 }
 
 
 @media only screen and (max-width: 480px) {
 
-
-    .site__btn-portfolio,.site__btn-skills {
-        margin-top: 160px;
-        min-width: 120px;
-    }
-
-     .site__btn  a {
+    .site__btn  a {
         font-size: 12px;
     }
 
@@ -151,12 +139,8 @@
 
 @media only screen and (max-width: 320px) {
 
-    .site__btn-skills, .site__btn-portfolio {
-       margin-top: 115px;
-    }
-   
     .home__octopus-img {
-        bottom:100px;
+        bottom:20px;
         left: 12%;
     }
 
