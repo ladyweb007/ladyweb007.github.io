@@ -548,6 +548,11 @@ a,a:hover,a:active,a:focus,a:visited {
 			height: 240px;
 			width: 100%;
 		}
+		.portfolio-item__description-wrapper {
+			position: relative;
+			margin: 0 auto;
+			width: 300px;
+		}
 			.portfolio-item__description span {
 				font-size: 16px;
 				color: #FFF;
