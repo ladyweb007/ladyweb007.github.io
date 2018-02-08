@@ -277,7 +277,7 @@ a,a:hover,a:active,a:focus,a:visited {
 	.home__octopus-img {
 		z-index:2;
 		position: absolute;
-		bottom: 445px;
+		bottom: 140px;
 		left: 45%;
 		width: 100px;
 		height: 100px;
@@ -288,7 +288,7 @@ a,a:hover,a:active,a:focus,a:visited {
 		orphans: .5;
 	}
 
-	.home__octopus:hover {
+	.home__octopus-img:hover {
 		background-image: url(../img/octopus/octopus-contacts.png);
 		width: 80px;
 		height: auto;
@@ -327,7 +327,7 @@ a,a:hover,a:active,a:focus,a:visited {
 }
 	
 .site__btn-skills, .site__btn-portfolio {
-	margin-top: 50%;
+	margin-top: 50px
 	min-width: 185px;
 	text-align: center;
 }
@@ -337,6 +337,7 @@ a,a:hover,a:active,a:focus,a:visited {
 	position: relative;
 	display: block;
 	margin: 0 auto;
+	margin-top: 150px;
 	text-align: center;
 }
 
