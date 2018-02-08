@@ -551,7 +551,6 @@ a,a:hover,a:active,a:focus,a:visited {
 		.portfolio-item__description-wrapper {
 			position: relative;
 			margin: 0 auto;
-			width: 300px;
 		}
 			.portfolio-item__description span {
 				font-size: 16px;
@@ -601,7 +600,7 @@ a,a:hover,a:active,a:focus,a:visited {
 				margin-bottom: 10px;
 				width: 100px;
 				color:#2f3157;
-				font-size: 18px;
+				font-size: 17px;
 				font-weight: 700;
 			}
 
@@ -614,8 +613,8 @@ a,a:hover,a:active,a:focus,a:visited {
 		}
 
 		.portfolio-item__text {
-			width: 160px;
-			padding-left: 24px;
+			width: 130px;
+			padding-left: 30px;
 			border-left:2px solid #ccc;
 		}
 
