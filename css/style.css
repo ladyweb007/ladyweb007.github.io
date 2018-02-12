@@ -288,12 +288,7 @@ a,a:hover,a:active,a:focus,a:visited {
 		orphans: .5;
 	}
 
-	.home__octopus-img:hover {
-		background-image: url(../img/octopus/octopus-contacts.png);
-		width: 80px;
-		height: auto;
-	} 
-
+	
 /*** .page-home ***/
 
 .home_parallax {
