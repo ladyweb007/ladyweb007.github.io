@@ -509,6 +509,11 @@ header {
     left: 10%;
   }
 }
+@media (max-width: 320px) {
+  .relax__content a {
+    margin-left: 35px;
+  }
+}
 .relax__content h3 {
   width: 570px;
   color: #ffffff;
@@ -578,6 +583,12 @@ header {
   font-family: "Roboto Slab";
   font-size: 16px;
   letter-spacing: -0.4px;
+}
+@media (max-width: 320px) {
+  .relax__content ul span {
+    margin-left: 10px;
+    font-size: 14px;
+  }
 }
 /*! ***END   _relax.less  *** !*/
 /*! *** START _project.less  *** !*/

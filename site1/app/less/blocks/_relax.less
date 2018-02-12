@@ -43,7 +43,13 @@
 	   		left: 10%;
     	}
 
-
+    	a {
+    		@media (max-width:320px) {
+			margin-left: 35px;
+    	}
+    		
+    	}
+					
 	   	& h3 {
 			width: 570px;
 			color: #ffffff;
@@ -75,6 +81,7 @@
 			line-height: 23px;
 			color: #cccccc;
 			margin-bottom: 20px;
+			
 			@media (max-width:940px) {
 				width: 90%;
         		font-size: 16px;
@@ -116,6 +123,11 @@
 				font-family: "Roboto Slab";
 				font-size: 16px;
 				letter-spacing: -0.4px;
+				
+				@media (max-width:320px) {
+					margin-left: 10px;
+					font-size: 14px;
+				}
 			}
 		}
 	}
