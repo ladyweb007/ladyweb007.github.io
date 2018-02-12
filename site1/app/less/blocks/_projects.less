@@ -1,0 +1,183 @@
+ 
+ /*! *** START _project.less  *** !*/
+
+ .projects {
+	padding-top: 75px;
+	padding-bottom: 99px;
+	
+	&__wrapper {
+		padding-top: 60px;
+		
+		@media (max-width:940px) {
+			width: 100%;
+			padding-top: 30px;
+		}
+		
+		&_left {
+			padding-top:79px;
+		}
+
+		&_right {
+			height: 492px;
+			width: auto;
+			padding-left: 70px;
+			
+			@media (max-width:940px) {
+			display: none;
+			}
+	
+		}
+	}
+
+	&__content {
+
+		@media (max-width:940px) {
+			width: 100%;
+			text-align: center;
+		}
+			
+		ul {
+			list-style: none;
+			
+			li {
+				margin-bottom: 10px;
+				margin-top: 15px;
+				@media (max-width:940px) {
+					margin-bottom: 80px;
+				}
+			}
+		}
+
+		a {
+			font-family: "Montserrat";
+			font-size: 16px;
+			font-weight: bold;
+			font-style: normal;
+			font-stretch: normal;
+			line-height: normal;
+			letter-spacing: -0.4px;
+			text-transform: uppercase;
+			color: #7cc576;
+			margin-right: 5px;
+		}
+	}
+}
+
+
+.project__text {
+
+	h4 	{
+		margin-bottom: 19px;
+		font-family: "Montserrat";
+		font-size: 18px;
+		font-weight: bold;
+		letter-spacing: -0.5px;
+		color: #222222;
+		text-transform: uppercase;
+		
+		@media (max-width:940px) {
+				width: 100%;
+		}
+	}
+
+
+	p {
+		margin-bottom: 20px;
+		width: 420px;
+		font-family: "Roboto Slab";
+		font-size: 16px;
+		letter-spacing: -0.4px;
+		line-height: 23px;
+		color: #777777;
+		
+		@media (max-width:940px) {
+				width: 100%;
+		}
+		
+	}
+
+
+	&_top {
+
+		margin-bottom: 24px;
+	}
+
+
+	&_bottom {
+		margin-top: -5px;
+		margin-bottom: 20px;
+		p {
+			line-height: 24px;
+		}
+	}
+}
+
+
+
+ .content-icon {
+
+ 	@media (max-width:940px) {
+			margin: 0 auto;
+	}	
+ 	
+	&__img {
+		position: relative;
+		float: left;
+		width: 73px;
+		height: 73px;
+		border: solid 3px #000000;
+		border-radius: 50%;
+		
+		@media (max-width:940px) {
+			float: none;
+			margin: 0 auto;
+		}		
+
+		img {
+			position: absolute;
+			display: block;
+			top: 50%;
+			left: 50%;
+			transform: translate(-50%, -50%);
+		}
+	}	
+
+		
+	&__text {
+		float:left;
+		margin-top: 13px;
+		margin-left: 15px;
+		width: 330px;
+		
+		@media (max-width:940px) {
+			float: none;
+			width: 98%;
+		}
+		
+		
+		& h5 {
+			color: #222222;
+			font-family: "Montserrat";
+			font-size: 18px;
+			font-weight: bold;
+			letter-spacing: -0.18px;
+ 		}
+
+		& p {
+			margin-bottom: 0px;
+			width: 375px;
+			font-family: "Roboto Slab";
+			font-size: 16px;
+			letter-spacing: -0.3px;
+			color: #777777;
+			line-height: 21px;
+			
+			@media (max-width:940px) {
+				width: 97%;
+			}
+		
+		}
+	}
+}
+ 
+ /*! *** END _project.less  *** !*/

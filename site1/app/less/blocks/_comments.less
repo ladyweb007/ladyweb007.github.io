@@ -1,0 +1,159 @@
+/*! *** START _copyright.less  *** !*/
+.comments {
+  padding-top: 75px;
+  padding-bottom: 94px;
+
+
+  &__row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+    @media (max-width:940px) {
+      flex-direction: column;
+      align-items:center;
+    }
+  }
+
+
+  &__wrapper {
+  padding-top: 6px;
+  }
+
+
+  &__item_1 {
+    padding-top:80px;
+    
+    @media (max-width:940px) {
+      padding-top:60px;
+      .comments-box_text-right {
+        align-self: flex-start;
+      }
+    }
+  }
+
+
+  &__item_2 {
+    padding-top: 38px;
+    padding-left: 33px;
+    
+    & img {
+      margin-top: -25px;
+    }
+
+    @media (max-width:940px) {
+      padding-left: 0px;
+      img {
+        margin-top: 0px;
+      }
+
+      .comments-box_text-left {
+        align-self: flex-end;
+      }
+    }
+   
+  }
+
+
+  &__box {
+  position: relative;
+  width: 643px;
+  height: 173px;
+  background-color: #f9f9f9;
+  color: #777;
+  
+    @media (max-width:940px) {
+        width: 90%;
+    }
+  
+    &_left {
+      margin-top: 25px;
+      margin-left:0px ;
+      
+      @media (max-width:940px) {
+        margin-left:-30px ;
+        margin-bottom: 60px;
+      }
+
+      @media (max-width:568px) {
+        margin-right:20px ;
+      }
+    }
+
+
+    &_right{
+      margin-top: 35px;
+      margin-right:30px ;
+      
+      @media (max-width:940px) {
+       margin-right:0px ;
+      }
+
+      @media (max-width:568px) {
+        margin-left:20px ;
+      }
+    } 
+
+
+    &_left ::after {
+      content: ''; 
+      position: absolute;
+      right: -30px; 
+      top: 73px;
+      border: 10px solid transparent;
+      border-left: 20px solid #f9f9f9;
+    }
+
+
+    &_right ::after {
+      content: ''; 
+      position: absolute;
+      left: -30px; 
+      top: 73px;
+      border: 10px solid transparent;
+      border-right: 20px solid #f9f9f9;
+    }
+  }
+
+
+  &__box-review {
+    margin-top: 34px;
+    margin-left: 44px;
+    width: 545px;
+    color: #777777;
+    font-family:'Roboto Slab';
+    font-size: 22px;
+    font-weight: normal;
+    line-height: 1.4;
+   
+    
+    @media (max-width:940px) {
+      margin-top: 35px;
+      margin-left: 10px;
+      width: 90%;
+      font-size: 16px;
+      
+    }
+  }
+
+
+  &__box-name {
+    margin-top: 6px;
+    margin-left: 137px;
+    color: #7cc576;
+    font-family:'Roboto Slab';
+    font-size: 18px;
+    line-height: 2;
+      
+    @media (max-width:940px) {
+      margin-left: 10px;
+      font-size: 14px;
+      line-height: 1.2;
+    }
+
+  }
+}
+
+/*! *** START _copyright.less  *** !*/
+
+

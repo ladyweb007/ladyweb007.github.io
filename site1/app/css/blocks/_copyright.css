@@ -1,0 +1,40 @@
+/*! *** START _copyright.less  *** !*/
+.copyright__text {
+  margin-top: 36px;
+  font-family: "Montserrat";
+  font-size: 14px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.57;
+  letter-spacing: -0.15px;
+  color: #555555;
+}
+@media (max-width: 940px) {
+  .copyright__text {
+    text-align: center;
+    width: 100%;
+  }
+}
+.copyright__icon-wrapper {
+  margin: 0 auto;
+}
+.copyright__icon {
+  padding-top: 28px;
+  padding-bottom: 30px;
+  padding-left: 10px;
+}
+@media (max-width: 940px) {
+  .copyright__icon {
+    width: 100%;
+  }
+}
+.copyright__icon img {
+  display: block;
+  float: left;
+  padding-right: 10px;
+}
+.copyright__icon img:last_child {
+  padding-right: 0px;
+}
+/*! *** END  _copyright.less  *** !*/

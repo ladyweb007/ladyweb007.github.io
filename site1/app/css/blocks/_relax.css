@@ -1,0 +1,113 @@
+/*! *** START _relax.less  *** !*/
+.relax {
+  height: 616px;
+}
+@media (max-width: 940px) {
+  .relax {
+    background-color: #FFF;
+  }
+}
+.relax__bg-icone {
+  padding-top: 100px;
+  padding-left: 5px;
+}
+@media (max-width: 940px) {
+  .relax__bg-icone {
+    display: none;
+    padding-top: 0px;
+    padding-left: 0px;
+  }
+}
+.relax__bg-image {
+  overflow: visible;
+  position: relative;
+}
+@media (max-width: 940px) {
+  .relax__bg-image {
+    width: 100%;
+    overflow: hidden;
+  }
+}
+.relax__content {
+  position: absolute;
+  top: 87px;
+  left: 100px;
+  text-align: left;
+}
+@media (max-width: 940px) {
+  .relax__content {
+    top: 5%;
+    left: 10%;
+  }
+}
+.relax__content h3 {
+  width: 570px;
+  color: #ffffff;
+  font-family: "Montserrat";
+  font-size: 40px;
+  font-weight: bold;
+  letter-spacing: -2px;
+  line-height: 52px;
+  text-transform: uppercase;
+  margin-bottom: 35px;
+}
+@media (max-width: 940px) {
+  .relax__content h3 {
+    width: 90%;
+    font-size: 30px;
+    letter-spacing: -2px;
+  }
+}
+.relax__content h3 span {
+  color: #7cc576;
+}
+.relax__content p {
+  width: 493px;
+  font-family: "Roboto Slab";
+  font-size: 16px;
+  letter-spacing: -0.4px;
+  line-height: 23px;
+  color: #cccccc;
+  margin-bottom: 20px;
+}
+@media (max-width: 940px) {
+  .relax__content p {
+    width: 90%;
+    font-size: 16px;
+    letter-spacing: -1.5px;
+  }
+}
+.relax__content ul {
+  list-style-type: none;
+  margin-bottom: 50px;
+}
+.relax__content ul li {
+  margin-bottom: 10px;
+}
+.relax__content ul li .relax__icon {
+  position: relative;
+  float: left;
+  width: 32px;
+  height: 32px;
+  border: 1px solid #fff;
+  -webkit-border-radius: 50%;
+          border-radius: 50%;
+}
+.relax__content ul li .relax__icon img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+.relax__content ul span {
+  float: left;
+  margin-left: 20px;
+  margin-top: 10px;
+  color: #cccccc;
+  font-family: "Roboto Slab";
+  font-size: 16px;
+  letter-spacing: -0.4px;
+}
+/*! ***END   _relax.less  *** !*/

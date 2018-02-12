@@ -1,0 +1,59 @@
+/*! *** START  _clients-logo.less  *** !*/
+.clients-logo {
+  margin: 0 auto;
+  padding-top: 60px;
+  padding-bottom: 63px;
+}
+@media (max-width: 480px) {
+  .clients-logo {
+    padding-top: 30px;
+  }
+}
+.clients-logo__row {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+@media (max-width: 940px) {
+  .clients-logo__row {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+.clients-logo img {
+  padding-right: 40px;
+  height: 42px;
+  width: auto;
+}
+@media (max-width: 940px) {
+  .clients-logo img {
+    padding-right: 0px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+}
+.clients-logo img:last-child {
+  padding-right: 0px;
+}
+.clients-logo img:first-child {
+  height: auto;
+  width: auto;
+}
+/*! *** END  _clients-logo.less  *** !*/

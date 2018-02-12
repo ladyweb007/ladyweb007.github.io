@@ -1,0 +1,29 @@
+/*! *** START _ready-to-talk.less  *** !*/
+.ready-to-talk {
+  width: 100%;
+  height: 250px;
+  padding-top: 60px;
+  text-align: center;
+}
+@media (max-width: 320px) {
+  .ready-to-talk {
+    padding-top: 30px;
+  }
+}
+.ready-to-talk p {
+  padding-bottom: 20px;
+  color: #ffffff;
+  font-family: "Montserrat";
+  font-size: 40px;
+  font-weight: bold;
+  letter-spacing: -2px;
+  text-transform: uppercase;
+}
+@media (max-width: 940px) {
+  .ready-to-talk p {
+    font-size: 30px;
+    letter-spacing: -1px;
+    word-spacing: 3px;
+  }
+}
+/*! *** END _ready-to-talk.less  *** !*/

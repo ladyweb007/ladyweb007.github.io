@@ -1,0 +1,124 @@
+/*! *** START _relax.less  *** !*/
+
+.relax {
+	height: 616px;
+	
+	@media (max-width:940px) {
+       background-color: #FFF;
+    	}
+
+	
+	&__bg-icone {
+		padding-top: 100px;
+	   	padding-left: 5px;
+	   	
+	   	@media (max-width:940px) {
+	   		display: none;
+	   		padding-top: 0px;
+	   		padding-left: 0px;
+    	}
+	}
+
+
+	&__bg-image { 
+		overflow: visible;
+		position: relative;
+		
+		 @media (max-width:940px) {
+    		width: 100%;
+       		overflow: hidden;
+    	}
+    	
+	}
+
+
+	&__content {
+		position: absolute;
+		top: 87px;
+		left: 100px;
+		text-align: left;
+		
+		@media (max-width:940px) {
+			top: 5%;
+	   		left: 10%;
+    	}
+
+
+	   	& h3 {
+			width: 570px;
+			color: #ffffff;
+	 		font-family: "Montserrat";
+			font-size: 40px;
+			font-weight: bold;
+			letter-spacing: -2px;
+			line-height: 52px;
+			text-transform: uppercase;
+	  		margin-bottom: 35px;
+	  		
+	  		@media (max-width:940px) {
+	  			width: 90%;
+        		font-size: 30px;
+           		letter-spacing: -2px;
+    		}
+    	
+	  		& span {
+	  			color: #7cc576;
+	  		}
+		}
+
+
+		& p {
+			width: 493px;
+			font-family: "Roboto Slab";
+			font-size: 16px;
+			letter-spacing: -0.4px;
+			line-height: 23px;
+			color: #cccccc;
+			margin-bottom: 20px;
+			@media (max-width:940px) {
+				width: 90%;
+        		font-size: 16px;
+           		letter-spacing: -1.5px;
+    		}
+		}
+
+
+		& ul {
+			list-style-type: none;
+			margin-bottom: 50px;
+			
+			& li {
+				margin-bottom: 10px;
+					
+				& .relax__icon {
+					position: relative;
+					float: left;
+					width: 32px;
+					height: 32px;
+					border: 1px solid #fff;
+					border-radius: 50%;
+												
+					& img {
+						position: absolute;
+						top: 50%;
+						left: 50%;
+						transform: translate(-50%, -50%);
+					}
+				}	
+			}	
+			
+
+			span {
+				float: left;
+				margin-left: 20px;
+				margin-top: 10px;
+				color: #cccccc;
+				font-family: "Roboto Slab";
+				font-size: 16px;
+				letter-spacing: -0.4px;
+			}
+		}
+	}
+}
+
+/*! ***END   _relax.less  *** !*/
